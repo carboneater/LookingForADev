@@ -1,0 +1,17 @@
+a { color:#4c4; text-decoration:none; }
+a:hover,a:focus { color: #ccc; text-decoration: none; }
+
+body { line-height: normal; background-color: #000000; border-color: #4C4; color: #4C4;}
+.clear { clear: both; }
+
+fieldset, hr { border-color: #4C4; }
+
+/*.main-logo { position: absolute; top: 50%; left: 50%; margin-top: -110px; margin-left: -375px; height: 220px; width: 750px; }*/
+.main-logo-box { position: absolute; top: 50%; left: 50%; margin-left: -200px; margin-top: -94px; text-align: cener; height: 130px; width: 400px; }
+.main-logo-slogan {text-align: center; font-size: 28px;}
+.main-logo-text { margin:0px; text-align: center; font-size: 84px; }
+
+.details { position: absolute; color: #fff; right: 20px; bottom: 20px; font-size: 16px; text-align: right; }
+
+table, th, td {border: 2px solid #4c4; border-collapse: collapse; }
+table {width: 100%;}
