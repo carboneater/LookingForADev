@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>I'm Looking for a Dev</title>
 
-		<link href="style.css" rel="stylesheet">
+ 		<!-- <link href="style.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="/erp/css/bootstrap/bootstrap.min.css"/>
+		<script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<h1>I'm Looking for a Dev</h1>
@@ -14,44 +15,136 @@
 			<fieldset>
 				<caption>Challenges</caption>
 				<br/>
-				<label for="Tasks">Tasks:</label>
-				<input name="Tasks" type="radio" value="fullstack">Full Stack</input>
-				<input name="Tasks" type="radio" value="frontend">FrontEnd</input>
-				<input name="Tasks" type="radio" value="backend">BackEnd</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="Tasks">Tasks:</label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="radio">
+							<input name="Tasks" type="radio" value="fullstack">Full Stack</input>
+						</div>
+						<div class="radio">
+							<input name="Tasks" type="radio" value="frontend">FrontEnd</input>
+						</div>
+						<div class="radio">
+							<input name="Tasks" type="radio" value="backend">BackEnd</input>
+						</div>
+					</div>
+				</div>
 				<hr/>
-				<label for="Platforms">Platforms: </label>
-				<input name="Platforms" type="checkbox" value="android">Android</input>
-				<input name="Platforms" type="checkbox" value="ios">iOS</input>
-				<input name="Platforms" type="checkbox" value="linux">GNU/Linux, BSDs & derivatives</input>
-				<input name="Platforms" type="checkbox" value="mac">Mac OS</input>
-				<input name="Platforms" type="checkbox" value="web">Web</input>
-				<input name="Platforms" type="checkbox" value="windows">Windows</input>
-				<input name="Platforms" type="checkbox" value="tbd">To Be Determined</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="Platforms">Platforms: </label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="android">Android</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="ios">iOS</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="linux">GNU/Linux, BSDs & derivatives</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="mac">Mac OS</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="web">Web</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="windows">Windows</input>
+						</div>
+						<div class="checkbox">
+							<input name="Platforms" type="checkbox" value="tbd">To Be Determined</input>
+						</div>
+					</div>
+				</div>
 				<hr/>
-				<label for="Languages">Using the Following Languages:</label>
-				<input name="Languages" type="checkbox" value="java">Java</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="Languages">Using the Following Languages:</label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="css">CSS</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="csharp">C#</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="java">Java</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="javascript">JavaScript</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="php">PHP</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="python">Python</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="swift">Swift</input>
+						</div>
+						<div class="checkbox">
+							<input name="Languages" type="checkbox" value="other">Other</input>
+						</div>
+					</div>
+				</div>
 			</fieldset>
 			<fieldset>
 				<caption>Project</caption>
 				<br/>
-				<label for="business">Business Type: </label>
-				<input name="business" type="radio" value="company">Company</input>
-				<input name="business" type="radio" value="startup">Startup</input>
-				<input name="business" type="radio" value="project">Project</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="business">Business Type: </label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="radio">
+							<input name="business" type="radio" value="company">Company</input>
+						</div>
+						<div class="radio">
+							<input name="business" type="radio" value="startup">Startup</input>
+						</div>
+						<div class="radio">
+							<input name="business" type="radio" value="project">Project</input>
+						</div>
+					</div>
+				</div>
 				<hr/>
-				<label for="pay">Payment Type: </label>
-				<input name="pay" type="radio" value="cash">Cash</input>
-				<input name="pay" type="radio" value="shares">Shares</input>
-				<input name="pay" type="radio" value="tbd">To Be Determined</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="pay">Payment Type: </label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="radio">
+							<input name="pay" type="radio" value="cash">Cash</input>
+						</div>
+						<div class="radio">
+							<input name="pay" type="radio" value="shares">Shares</input>
+						</div>
+						<div class="radio">
+							<input name="pay" type="radio" value="tbd">To Be Determined</input>
+						</div>
+					</div>
+				</div>
 				<hr/>
-				<label for="location">Location: </label>
-				<input name="location" type="radio" value="onsite">On Premises</input>
-				<input name="location" type="radio" value="remote">Remote work</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="location">Location: </label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="radio">
+							<input name="location" type="radio" value="onsite">On Premises</input>
+						</div>
+						<div class="radio">
+							<input name="location" type="radio" value="remote">Remote work</input>
+						</div>
+					</div>
+				</div>
 				<hr/>
-				<label for="schedule">Schedule: </label>
-				<input name="schedule" type="radio" value="fulltime">Full Time</input>
-				<input name="schedule" type="radio" value="parttime">Part Time</input>
-				<input name="schedule" type="radio" value="freelance">Freelance</input>
+				<div class="row">
+					<label class="col-xs-6 col-sm-4 col-lg-3" for="schedule">Schedule: </label>
+					<div class="col-xs-6 col-sm-8 col-lg-9">
+						<div class="radio">
+							<input name="schedule" type="radio" value="fulltime">Full Time</input>
+						</div>
+						<div class="radio">
+							<input name="schedule" type="radio" value="parttime">Part Time</input>
+						</div>
+						<div class="radio">
+							<input name="schedule" type="radio" value="freelance">Freelance</input>
+					</div>
+				</div>
 			</fieldset>
 		</form>
 	</body>
